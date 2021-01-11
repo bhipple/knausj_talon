@@ -84,8 +84,12 @@ org archive:        key(ctrl-c shift-4)
 org review:         key(space o a r)
 
 org (file|home):    key(space o o)
-org weekly review:  key(space o b w)
+org weekly review:  key(space o b w z t)
 org agenda:         " oaha"
+
+org active:         " aoCg"
+org clock in:       " aoCi"
+org clock out:      " aoCg aoCo"
 
 ################################################################################
 # Magit
