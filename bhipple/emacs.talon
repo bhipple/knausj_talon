@@ -41,6 +41,10 @@ vest split:         ":vsp\n"
 save:               key(escape : w a enter)
 close:              key(: b d enter)
 
+view center:        "zz"
+view top:           "zt"
+view bottom:        "zb"
+
 # Editing and coding
 comment line:       "gcgc"
 line above:         " ik"

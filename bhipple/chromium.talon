@@ -8,3 +8,5 @@ tab new: key(ctrl-t)
 tab close: key(ctrl-w)
 
 tab <number_small>$: user.tab_jump(number_small)
+
+copy: key(ctrl-c)
