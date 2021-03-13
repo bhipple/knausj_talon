@@ -21,6 +21,10 @@ goto <user.text>: "zi\n{text}"
 ledger (bal|balance) <user.text>: "l b {text}\n"
 ledger (bal|balance)$: "l b\n"
 
+trading balances: "lt balances\n"
+trading ledger: "lt ledger\n"
+trading holdings: "lt holdings\n"
+
 ################################################################################
 # Nix
 borg merge:
