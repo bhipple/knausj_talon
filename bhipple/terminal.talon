@@ -17,6 +17,11 @@ goto org: "cd ~/org\n"
 goto$: "zi\n"
 goto <user.text>: "zi\n{text}"
 
+hissed: key(ctrl+r)
+#slip <user.text>:
+#	key(ctrl+r)
+#	"{text}"
+
 ################################################################################
 # Ledger
 ledger (bal|balance) <user.text>: "l b {text}\n"

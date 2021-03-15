@@ -25,3 +25,16 @@ bean town: "beancount"
 # Dumpers
 dump emacs: user.system_command("notify-send \"$(cat ~/.talon/user/knausj_talon/bhipple/emacs.talon)\"")
 dump terminal: user.system_command("notify-send \"$(cat ~/.talon/user/knausj_talon/bhipple/terminal.talon)\"")
+
+
+################################################################################
+# Work
+flip: key(alt-tab)
+
+ship:
+    key(alt-tab)
+    sleep(1)
+    key(ctrl-r)
+    sleep(1)
+    key(enter enter)
+    key(alt-tab)
