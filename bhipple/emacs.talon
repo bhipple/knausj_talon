@@ -12,7 +12,8 @@ run <user.text>:    " rt{text}"
 (rerun|repeat):     " rr"
 
 # Jumping from here to there
-bookmarks:          " fb"
+bookmarks$:         " fb"
+bookmarks <user.text>: " fb{text}"
 last:               key(ctrl-6)
 
 buffer$:            " bb"
@@ -88,6 +89,9 @@ org archive:        key(ctrl-c shift-4)
 org review:         key(space o a r)
 
 org (file|home):    key(space o o)
+org personal:       ":e ~/ledger/personal.org\n"
+org portfolio:      ":e ~/ledger/portfolio.org\n"
+
 org weekly review:  key(space o b w z t)
 org agenda:         " oaha"
 

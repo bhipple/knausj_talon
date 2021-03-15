@@ -19,6 +19,7 @@ run terminal: key(super-enter)
 ################################################################################
 # General Vocabulary
 bean count: "beancount"
+bean town: "beancount"
 
 ################################################################################
 # Dumpers
