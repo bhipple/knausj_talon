@@ -42,3 +42,10 @@ nix shell: "nix-shell\n"
 nix build: "nix-build\n"
 
 make build: "make build -j\n"
+
+################################################################################
+# Pass
+pass$: "pass "
+
+pass account <user.text>$: "pass -c2 {text}\t\t"
+pass <user.text>$: "pass -c {text}\t\t"
