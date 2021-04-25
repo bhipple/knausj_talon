@@ -1,5 +1,11 @@
 -
 settings():
+    ################################################################################
+    # Hipple Settings
+    # How quickly I have to say command phrases before they execute
+    speech.timeout = 0.2
+    ################################################################################
+
     #adjust the scale of the imgui to my liking
     imgui.scale = 1.3
     # enable if you'd like the picker gui to automatically appear when explorer has focus
@@ -27,6 +33,6 @@ settings():
     # the number of lines of command history to keep in total;
     # "command history more" to display all of them, "command history less" to restore
     user.command_history_size = 50
-	
+
 # uncomment tag to enable mouse grid
 # tag(): user.mouse_grid_enabled

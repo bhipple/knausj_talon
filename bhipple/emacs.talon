@@ -92,7 +92,7 @@ org (file|home):    key(space o o)
 org personal:       ":e ~/ledger/personal.org\n"
 org portfolio:      ":e ~/ledger/portfolio.org\n"
 
-org weekly review:  key(space o b w z t)
+weekly review:  key(space o b w z t)
 org agenda:         " oaha"
 
 org active:         " aoCg"
