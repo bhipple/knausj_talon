@@ -18,6 +18,8 @@ goto$: "zi\n"
 goto <user.text>: "zi\n{text}"
 
 hissed: key(ctrl+r)
+history: key(ctrl+r)
+
 #slip <user.text>:
 #	key(ctrl+r)
 #	"{text}"
@@ -45,7 +47,4 @@ make build: "make build -j\n"
 
 ################################################################################
 # Pass
-pass$: "pass "
-
-pass account <user.text>$: "pass -c2 {text}\t\t"
-pass <user.text>$: "pass -c {text}\t\t"
+pass$: key(p a s s space ctrl-r)
