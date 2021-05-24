@@ -44,6 +44,7 @@ nix shell: "nix-shell\n"
 nix build: "nix-build\n"
 
 make build: "make build -j\n"
+waf: "./waf -v -j32 build\n"
 
 ################################################################################
 # Pass
