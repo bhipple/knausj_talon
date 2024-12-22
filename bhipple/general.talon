@@ -8,6 +8,16 @@ tag(): user.git
 my email: "bhipple@protonmail.com"
 
 ################################################################################
+# Talon Configuration
+key(home):
+    app.notify("Disabling talon mic")
+    sound.set_microphone("None")
+
+key(delete):
+    app.notify("Enabling talon mic")
+    sound.set_microphone("System Default")
+
+################################################################################
 # Program Launching
 launch: user.system_command("dmenu_run")
 
