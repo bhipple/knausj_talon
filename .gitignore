@@ -1,3 +1,7 @@
+# My stuff
+settings
+core/system_*
+
 # Dev stuff
 __pycache__
 *.sw?
