@@ -31,11 +31,6 @@ ledger (bal|balance) <user.text>: "l b {text}\n"
 ledger (bal|balance)$: "l b\n"
 
 ################################################################################
-# Habits
-habit <user.text>: "h {text}"
-weight <user.text>: "weight {text}"
-
-################################################################################
 # Nix
 nix shell: "nix-shell\n"
 nix build: "nix build -Lvf . \n"

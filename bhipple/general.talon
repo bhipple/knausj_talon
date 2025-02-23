@@ -21,7 +21,6 @@ key(delete):
 # Program Launching
 launch: user.system_command("dmenu_run")
 
-run alphabet: user.system_command("alphabet")
 run anki: user.system_command("anki")
 run bar: user.system_command("dmenu_run")
 run bluetooth connect: user.system_command("bt-connect")
@@ -46,12 +45,31 @@ run nixos rebuild:
     sleep(500ms)
     "sudo nixos-rebuild switch --upgrade\n"
 
+################################################################################
+# Habit Logging
 log lift:
     key(alt-1)
     sleep(500ms)
     key(f11)
     sleep(100ms)
     "Lifting Log\n"
+    sleep(100ms)
+    "11gg0"
+
+habit meditate <user.number_string>:
+    key(alt-enter)
+    sleep(500ms)
+    "habit meditate {number_string}"
+
+habit red light <user.number_string>:
+    key(alt-enter)
+    sleep(500ms)
+    "habit RLT {number_string}"
+
+habit sauna <user.number_string>:
+    key(alt-enter)
+    sleep(500ms)
+    "habit sauna {number_string}"
 
 ################################################################################
 # Audio Control
@@ -60,7 +78,7 @@ run audio$:
     sleep(500ms)
     "audio\n"
 
-run audio speaker:
+run audio (speaker|hdmi):
     key(alt-enter)
     sleep(500ms)
     "audio hdmi\n"
@@ -72,5 +90,5 @@ run audio bluetooth:
 
 ################################################################################
 # Dumpers
-dump emacs: user.system_command("notify-send \"$(cat ~/.talon/user/knausj_talon/bhipple/emacs.talon)\"")
-dump terminal: user.system_command("notify-send \"$(cat ~/.talon/user/knausj_talon/bhipple/terminal.talon)\"")
+dump emacs: user.system_command("notify-send \"$(cat ~/.talon/user/community/bhipple/emacs.talon)\"")
+dump terminal: user.system_command("notify-send \"$(cat ~/.talon/user/community/bhipple/terminal.talon)\"")
