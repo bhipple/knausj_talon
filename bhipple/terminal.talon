@@ -1,5 +1,5 @@
 os: linux
-and app: UXTerm
+and app: alacritty
 os: windows
 and title: /.*TMUX_RIGHT.*/
 -
@@ -44,4 +44,7 @@ pass$: key(p a s s space ctrl-r)
 
 ################################################################################
 # Aider
-aider: "aider\n"
+run (aider|AI|ai): "aider\n"
+ask <user.text>: "/ask {text}"
+architect <user.text>: "/architect {text}"
+go ahead: "go ahead\n"
