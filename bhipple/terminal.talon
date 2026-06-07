@@ -43,8 +43,6 @@ waf: "./waf -v -j32 build\n"
 pass$: key(p a s s space ctrl-r)
 
 ################################################################################
-# Aider
-run (aider|AI|ai): "aider\n"
-ask <user.text>: "/ask {text}"
-architect <user.text>: "/architect {text}"
+# Claude
+run (claude|AI|ai): "claude\n"
 go ahead: "go ahead\n"
